@@ -1,0 +1,36 @@
+{
+    "controlador.TDA.listas.LinkedList": {
+        "head": {
+            "data": {
+                "@class": "modelo.Marca",
+                "nombre": "XXXX",
+                "estado": true
+            },
+            "next": {
+                "data": {
+                    "@class": "modelo.Marca",
+                    "nombre": "Bridgestone",
+                    "estado": true
+                },
+                "next": {
+                    "data": {
+                        "@class": "modelo.Marca",
+                        "nombre": "Triangule",
+                        "estado": true
+                    },
+                    "next": {
+                        "data": {
+                            "@class": "modelo.Marca",
+                            "nombre": "General",
+                            "estado": true
+                        }
+                    }
+                }
+            }
+        },
+        "last": {
+            "@reference": "..\/head\/next\/next\/next"
+        },
+        "size": 4
+    }
+}
