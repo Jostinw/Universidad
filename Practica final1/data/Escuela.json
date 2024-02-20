@@ -1,0 +1,30 @@
+{
+    "controlador.TDA.listas.LinkedList": {
+        "head": {
+            "data": {
+                "@class": "modelo.EjemploGrafo.Escuela",
+                "id": 1,
+                "nombre": "No se ",
+                "logo": "20804041-8f04-42a0-a6c2-edf98c7d55fdjpeg",
+                "foto": "037fbdd1-2a6f-47f4-9f30-196b2055024fpng",
+                "latitud": 2,
+                "longitud": 1
+            },
+            "next": {
+                "data": {
+                    "@class": "modelo.EjemploGrafo.Escuela",
+                    "id": 2,
+                    "nombre": "Si",
+                    "logo": "65046348-9329-4da3-8a28-de51277e1517png",
+                    "foto": "347ad492-da24-4107-9f69-472b3ec11bcbjpeg",
+                    "latitud": 12,
+                    "longitud": 32
+                }
+            }
+        },
+        "last": {
+            "@reference": "..\/head\/next"
+        },
+        "size": 2
+    }
+}
